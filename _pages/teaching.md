@@ -1,12 +1,17 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: # Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 5
 ---
+## Courses
+* Summer 2022: Artificial Intelligence in Production Engineering (lecturer)
+* Summer 2021: Artificial Intelligence in Production Engineering (lecturer)
+* Summer 2020: Artificial Intelligence in Production Engineering (lecturer)
+* Winter 2019: Metal Cutting Machine Tools 1 (lecture TA)
+* Winter 2018: Metal Cutting Machine Tools 1 (lecture TA)
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+## Tutorials
+* Data Analytics in Production Engineering: Two-day tutorial about the application of machine learning algorithms to problems of industrial engineering for PhD students of the [TUM Institute for Machine Tools and Industrial Management](https://www.mec.ed.tum.de/en/iwb/homepage/) (held in 2020, 2021 and 2022).

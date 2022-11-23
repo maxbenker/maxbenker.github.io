@@ -8,6 +8,9 @@
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
 $orange-color:        #F29105 !default;
+$TUM-color:           #3070B3 !default;
+$TUM-hover:           #e37222 !default;
+$TUM-color-dark:      #9ABCE4 !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
 $cyan-color:          #2698BA !default;
@@ -34,5 +37,5 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-light:     rgba($TUM-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
