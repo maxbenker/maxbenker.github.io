@@ -7,7 +7,7 @@ tags: LaTeX
 categories: research
 
 ---
-In this article I will share lessons learned about writing a thesis in LaTeX. When I wrote my PhD thesis, I put a lot of effort into collecting information about how to write a thesis from the internet and from my colleagues at the TUM, which was quite time consuming. Probably everyone, who decides to write a thesis in LaTeX, has to go through this process but maybe I can spare you some effort by sharing my favorite LaTeX features in a series of shorter blog posts. 
+In this article I will share my lessons learned about writing a thesis in LaTeX. During my PhD, I have been collecting a lot of information about how to write a thesis from the internet and from my colleagues at the TUM. Probably everyone, who decides to write a thesis in LaTeX, has to go through this tedious process but maybe I can spare you some effort by sharing my favorite LaTeX features in a series of shorter blog posts. 
 
 First of all, I have to state that I am not a LaTeX expert, at all, and a very exhaustive guide for writing a thesis in LaTeX can be found [here](http://tug.ctan.org/info/dickimaw/dickimaw-thesis.pdf). Nevertheless, I can imagine that some of the routines and packages I ended up using are useful for others, too. In a series of shorter blog posts I will share them. This first part we will establish a minimal working example (i.e., a very basic LaTeX thesis document) that the following blog posts will be based upon. Hence, the content will be
 
