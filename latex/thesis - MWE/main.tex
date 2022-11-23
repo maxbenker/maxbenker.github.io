@@ -1,0 +1,76 @@
+\documentclass[
+paper=a4, % change to a5 if needed
+pagesize=auto, 
+fontsize=11pt, 
+numbers=noendperiod,
+headings=twolinechapter, % state the chapter first, then the chapter title
+listof=totoc, % add listo of figures and tables to toc
+bibliography=totoc % add bilbiography to toc
+]
+{scrbook}
+% --------
+% Bibliography
+% --------
+\usepackage[
+style=authoryear, % other styles available
+backend=biber, % you will have to set biber as your backend in TeXstudio
+maxnames=2, % display maximum two authors
+]
+{biblatex}
+\addbibresource{refs.bib} % tell latex where the references are stored
+% --------
+% Additional packages
+% --------
+\usepackage{lipsum} % for blind text only
+\usepackage[hidelinks]{hyperref} % for internal links, such as Table of content (toc), figures and references
+\usepackage{graphicx} % for the integration of figures
+\graphicspath{{figures/}} % set absolute path to figures
+\usepackage{booktabs} % for nicer tables
+%
+\begin{document}
+% --------
+% Ttilepage
+% --------
+\titlehead{Some University
+		\hfill WS~2022/2023\\
+	School of Something\\
+	University Street 100\\
+	12345 City}
+\subject{Dissertation}
+\title{Thesis Title}
+\subtitle{Subtitle}
+\author{John Doe}
+\date{30. February 2022}
+\publishers{\begin{tabular}{lll}
+			&Chair: & Prof. A \\
+			&First Examinor: & Prof. B\\
+			&Second Examinor: & Prof. C
+			\end{tabular}
+			}
+\dedication{Dedication}
+\maketitle
+% --------
+% Preface
+% --------
+\frontmatter % switches to lower case roman page numbers
+\tableofcontents
+\listoffigures
+\listoftables
+% --------
+% Content
+% --------
+\mainmatter % switches to latin page numbers
+\include{source/introduction}
+\include{source/results}
+\include{source/conclusions}
+% --------
+% Appendix
+% --------
+\appendix%
+\include{source/appendix}%
+% --------
+% Bibliography
+% --------
+\backmatter % chapters are not numbered anymore
+\printbibliography%
+\end{document}

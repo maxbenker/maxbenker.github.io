@@ -1,0 +1,47 @@
+bib2gls 2.9 (2021-11-22)
+Reading main.aux
+Reading source\introduction.aux
+Reading source\results.aux
+Reading source\conclusions.aux
+Reading source\appendix.aux
+TeX character encoding: UTF-8
+Initialising resource main.glstex.
+Initialising resource main-1.glstex.
+Initialising resource main-2.glstex.
+Parsing bib files for resource main.glstex.
+Default encoding: not set
+Reading source\acronyms.bib
+Parsing bib files for resource main-1.glstex.
+Default encoding: not set
+Detected encoding: UTF-8
+Reading source\notations.bib
+Encoding: UTF-8
+Parsing bib files for resource main-2.glstex.
+Default encoding: not set
+Reading source\symbols.bib
+Cross-resource references allowed.
+Processing resource main.glstex.
+Processing resource main-1.glstex.
+Processing resource main-2.glstex.
+Inserting empty group in front of \ensuremath to protect it from mfirstuc.
+Inserting empty group in front of \ensuremath to protect it from mfirstuc.
+Inserting empty group in front of \ensuremath to protect it from mfirstuc.
+Selecting entries for resource main.glstex.
+Writing C:\Users\ge29xol\LRZ Sync+Share\80_Sonstiges\Website\al-folio-master\latex\thesis - GLS\main.glstex
+Encoding: UTF-8
+dl
+fft
+ml
+3 entries written to C:\Users\ge29xol\LRZ Sync+Share\80_Sonstiges\Website\al-folio-master\latex\thesis - GLS\main.glstex.
+Selecting entries for resource main-1.glstex.
+Writing C:\Users\ge29xol\LRZ Sync+Share\80_Sonstiges\Website\al-folio-master\latex\thesis - GLS\main-1.glstex
+Encoding: UTF-8
+determinant
+1 entry written to C:\Users\ge29xol\LRZ Sync+Share\80_Sonstiges\Website\al-folio-master\latex\thesis - GLS\main-1.glstex.
+Selecting entries for resource main-2.glstex.
+Writing C:\Users\ge29xol\LRZ Sync+Share\80_Sonstiges\Website\al-folio-master\latex\thesis - GLS\main-2.glstex
+Encoding: UTF-8
+omega
+x_dot
+2 entries written to C:\Users\ge29xol\LRZ Sync+Share\80_Sonstiges\Website\al-folio-master\latex\thesis - GLS\main-2.glstex.
+6 entries written in total.

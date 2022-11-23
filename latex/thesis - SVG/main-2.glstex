@@ -1,0 +1,32 @@
+\glsnoexpandfields
+\bibglstertiaryprefixlabel{tertiary.}
+\bibglsdualprefixlabel{dual.}
+\bibglsprimaryprefixlabel{}
+\providecommand{\bibglsseesep}{, }
+
+\providecommand{\bibglsseealsosep}{, }
+
+\providecommand{\bibglsaliassep}{, }
+
+\providecommand*{\bibglsflattenedhomograph}[2]{#1}
+\providecommand{\bibglsnewsymbol}[4]{%
+ \longnewglossaryentry*{#1}{name={#3},sort={#1},category={symbol},#2}{#4}}
+
+\bibglsnewsymbol{omega}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}},
+sort={omega},
+group={Symbols}}%
+{{}\ensuremath{\omega}}%
+{angular velocity in \unit{\per\second}}
+\glsxtrfieldlistadd{omega}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}}
+
+
+\bibglsnewsymbol{x_dot}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}},
+sort={x\bibglsunderscorechar dot},
+group={Symbols}}%
+{{}\ensuremath{\dot{x}}}%
+{velocity in \unit{\meter\per\second}}
+\glsxtrfieldlistadd{x_dot}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}}
+
+
