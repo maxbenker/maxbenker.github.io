@@ -1,0 +1,23 @@
+\glsnoexpandfields
+\bibglstertiaryprefixlabel{tertiary.}
+\bibglsdualprefixlabel{dual.}
+\bibglsprimaryprefixlabel{}
+\providecommand{\bibglsseesep}{, }
+
+\providecommand{\bibglsseealsosep}{, }
+
+\providecommand{\bibglsaliassep}{, }
+
+\providecommand*{\bibglsflattenedhomograph}[2]{#1}
+\providecommand{\bibglsnewsymbol}[4]{%
+ \longnewglossaryentry*{#1}{name={#3},sort={#1},category={symbol},#2}{#4}}
+
+\bibglsnewsymbol{determinant}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}},
+sort={determinant},
+group={Notations}}%
+{\(\mathrm{det}(X)\)}%
+{determinant of a matrix}
+\glsxtrfieldlistadd{determinant}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}}
+
+

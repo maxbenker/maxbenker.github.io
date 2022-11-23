@@ -1,0 +1,5 @@
+# set svg fonttype
+svg.fonttype : none
+
+# do not use unicode minus
+axes.unicode_minus : False
