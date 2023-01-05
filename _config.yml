@@ -6,6 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Maximilian
 middle_name:
 last_name: Benker
+author: Maxmimilian Benker
 email: info@mbenker.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
