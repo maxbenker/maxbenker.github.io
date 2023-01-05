@@ -13,6 +13,7 @@ contact_note: >
 first_name: Maximilian
 middle_name:
 last_name: Benker
+author: Maxmimilian Benker
 email: info@mbenker.com
 >>>>>>> 7fd44766 (personalized)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
