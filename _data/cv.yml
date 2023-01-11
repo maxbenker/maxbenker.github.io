@@ -31,7 +31,7 @@
   type: time_table
   contents:
      - title: Data Scientist Plant Service
-      institution: MTU Aero Engines AG, Germany
+      institution: MTU Aero Engines AG, Munich, Germany
       year: 2023 - today
       description:
         - Development of condition-based maintenance solutions
