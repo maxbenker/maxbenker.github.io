@@ -30,6 +30,12 @@
 - title: Experience
   type: time_table
   contents:
+     - title: Data Scientist Plant Service
+      institution: MTU Aero Engines AG, Germany
+      year: 2023 - today
+      description:
+        - Development of condition-based maintenance solutions
+
     - title: Research associate
       institution: Institute for Machine Tools and Industrial Management, Technical University of Munich (TUM), Germany
       year: 2018 - today
