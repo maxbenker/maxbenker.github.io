@@ -24,8 +24,6 @@ According to [this answer](https://tex.stackexchange.com/a/1760) on stackexchang
 
 Personally, I found that writing large documents in LaTeX is more stable than writing it with a what-you-see-is-what-you-get (WYSIWYG) text editor such as Word or [LibreOffice](https://www.libreoffice.org/). For me large texts are more difficult to control in WYSIWYG editors (e.g., I change something on page 4 and that change has negative impacts on the format of the following pages) and I also prefer the typographical quality of LaTeX.
 
-{% twitter https://twitter.com/LindorffLarsen/status/1594967099096825858?t=NzOWLyfq9_KP536CzeyiBA&s=03 %}
-
 However, since LaTeX is not a proprietary software, there are different distributions and ways to install and use it. Below, an exemplary way of working with LaTeX on a Windows computer is explained.
 
 ## LaTeX installation and text editor
