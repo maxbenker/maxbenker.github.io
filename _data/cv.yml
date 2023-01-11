@@ -30,7 +30,7 @@
 - title: Experience
   type: time_table
   contents:
-     - title: Data Scientist Plant Service
+    - title: Data Scientist Plant Service
       institution: MTU Aero Engines AG, Munich, Germany
       year: 2023 - today
       description:
