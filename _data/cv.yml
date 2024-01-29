@@ -30,13 +30,14 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Data Scientist Plant Service
+    - title: Maintenance Engineer
       institution: MTU Aero Engines AG, Munich, Germany
       year: 2023 - today
       description:
-        - Development of condition-based maintenance solutions
+        - Development and Implementation of predictive maintenance and predictive quality solutions
+        - Reducing maintenance costs with data analytics
 
-    - title: Research associate
+    - title: Research Associate
       institution: Institute for Machine Tools and Industrial Management, Technical University of Munich (TUM), Germany
       year: 2018 - 2022
       description:
