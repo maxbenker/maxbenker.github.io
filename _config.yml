@@ -3,20 +3,34 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
+<<<<<<< HEAD
 first_name: You
 middle_name: R.
 last_name: Name
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
+=======
+first_name: Maximilian
+middle_name:
+last_name: Benker
+email: info@mbenker.com
+>>>>>>> 7fd44766 (personalized)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  A simple personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+<<<<<<< HEAD
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+=======
+keywords: jekyll, academic-website, personal-website  # add your own keywords or leave empty
+
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: favicon/favicon-32x32.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+>>>>>>> 7fd44766 (personalized)
 
 url: https://maxbenker.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -42,6 +56,11 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
+<<<<<<< HEAD
+=======
+rss_icon: false
+
+>>>>>>> 7fd44766 (personalized)
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -68,6 +87,7 @@ serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
+<<<<<<< HEAD
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
@@ -77,6 +97,47 @@ google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+=======
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: # your GitHub user name
+gitlab_username: # your GitLab user name
+twitter_username: # your Twitter handle
+linkedin_username: maximilian-benker-18648595 # your LinkedIn user name
+scholar_userid: https://scholar.google.com/citations?user=bLZcTBQAAAAJ&hl=en # your Google Scholar ID
+semanticscholar_id: # your Semantic Scholar ID
+whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+orcid_id: # your ORCID ID
+medium_username: # your Medium username
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+research_gate_profile: # your profile on ResearchGate
+blogger_url: # your blogger URL
+work_url: # work page URL
+keybase_username: # your keybase user name
+wikidata_id: # your wikidata id
+dblp_url: # your DBLP profile url
+stackoverflow_id: # your stackoverflow id
+kaggle_id: # your kaggle id
+lastfm_id: # your lastfm id
+spotify_id: # your spotify id
+pinterest_id: # your pinterest id
+unsplash_id: # your unsplash id
+instagram_id: # your instagram id
+facebook_id: # your facebook id
+discord_id: # your discord id (18-digit unique numerical identifier)
+
+contact_note: >
+  You can reach me via Email or LinkedIn.
+
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
+google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+panelbear_analytics: IaPtXjIRyjX # panelbear analytics site ID (format: XXXXXXXXX)
+>>>>>>> 7fd44766 (personalized)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
@@ -86,8 +147,14 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
+=======
+blog_name: Blog # blog_name will be displayed in your blog page
+blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
+blog_description: #thoughts on research and side projects
+>>>>>>> 7fd44766 (personalized)
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -95,6 +162,7 @@ lsi: false # produce an index for related posts
 pagination:
   enabled: true
 
+<<<<<<< HEAD
 related_blog_posts:
   enabled: true
   max_related: 5
@@ -116,11 +184,16 @@ giscus:
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
+=======
+# Comments
+disqus_shortname: # put your disqus shortname
+>>>>>>> 7fd44766 (personalized)
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
+<<<<<<< HEAD
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
@@ -137,6 +210,11 @@ newsletter:
   enabled: false
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
+=======
+#external_sources:
+#  - name: #medium.com
+#    rss_url: #https://medium.com/@al-folio/feed
+>>>>>>> 7fd44766 (personalized)
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -149,8 +227,18 @@ collections:
     defaults:
       layout: post
     output: true
+<<<<<<< HEAD
   projects:
     output: true
+=======
+    permalink: /news/:path/
+  #projects:
+  #  output: false
+  #  permalink: #/projects/:path/
+
+news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+news_limit: 5 # leave blank to include all the news in the `_news` folder
+>>>>>>> 7fd44766 (personalized)
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -166,7 +254,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: false
+      line_numbers: true
       start_line: 1
 
 # Includes & excludes
@@ -209,9 +297,13 @@ plugins:
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
+<<<<<<< HEAD
   - jekyll-tabs
   - jekyll-terser
   - jekyll-toc
+=======
+  - jekyll-target-blank
+>>>>>>> 7fd44766 (personalized)
   - jekyll-twitter-plugin
   - jemoji
 
@@ -255,16 +347,26 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
+<<<<<<< HEAD
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+=======
+display_tags: ['LaTeX', 'python'] # this tags will be dispalyed on the front page of your blog
+>>>>>>> 7fd44766 (personalized)
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
+<<<<<<< HEAD
   last_name: [Einstein]
   first_name: [Albert, A.]
+=======
+
+  last_name: [Benker]
+  first_name: [Maximilian]
+>>>>>>> 7fd44766 (personalized)
 
   style: apa
   locale: en
@@ -330,6 +432,7 @@ more_authors_animation_delay: 10 # more authors are revealed on click using anim
 enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
+<<<<<<< HEAD
 # Jekyll Link Attributes
 # -----------------------------------------------------------------------------
 
@@ -341,6 +444,8 @@ external_links:
   exclude:
 
 # -----------------------------------------------------------------------------
+=======
+>>>>>>> 7fd44766 (personalized)
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
@@ -375,6 +480,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
@@ -390,6 +496,23 @@ enable_project_categories: true # enables categorization of projects into multip
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
+=======
+enable_google_analytics:    false  # enables google analytics
+enable_panelbear_analytics: true  # enables panelbear analytics
+enable_google_verification: false  # enables google site verification
+enable_bing_verification:   false  # enables bing site verification
+enable_masonry:             true   # enables automatic project cards arangement
+enable_math:                true   # enables math typesetting (uses MathJax)
+enable_tooltips:            false  # enables automatic tooltip links generated
+                                   # for each section titles on pages and posts
+enable_darkmode:            true   # enables switching between light/dark modes
+enable_navbar_social:       false  # enables displaying social links in the
+                                   # navbar on the about page
+enable_project_categories:  true   # enables categorization of projects into
+                                   # multiple categories
+enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
+>>>>>>> 7fd44766 (personalized)
 
 # -----------------------------------------------------------------------------
 # Library versions

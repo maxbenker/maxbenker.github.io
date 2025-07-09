@@ -401,8 +401,12 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
+<<<<<<< HEAD
     font-size: 4rem;
 
+=======
+    font-size: 2rem;
+>>>>>>> 7fd44766 (personalized)
     a {
       img {
         width: 3.2rem;
@@ -712,6 +716,7 @@ footer.sticky-bottom {
       font-size: 1.5rem;
     }
   }
+<<<<<<< HEAD
 
   h2.bibliography {
     color: var(--global-divider-color);
@@ -719,6 +724,15 @@ footer.sticky-bottom {
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
+=======
+  h2.year {
+    color: var(--global-theme-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    text-align: left;
+>>>>>>> 7fd44766 (personalized)
   }
 
   ol.bibliography {
