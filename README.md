@@ -1,1 +1,0 @@
-Personal website based on Jekyll's al-folio template
